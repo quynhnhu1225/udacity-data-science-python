@@ -219,6 +219,8 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+# Show 5 first rows of raw data
     
 def show_data(df):
     row_num = 0
